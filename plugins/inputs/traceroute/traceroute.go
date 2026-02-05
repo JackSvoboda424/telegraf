@@ -94,7 +94,7 @@ func (s *Traceroute) Gather(acc telegraf.Accumulator) error {
 			hops = len(lines) - 7
 
 		} else {
-			hops = len(lines) - 1
+			hops = len(lines) - 2
 		}
 
 
